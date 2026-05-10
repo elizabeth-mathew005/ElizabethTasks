@@ -178,7 +178,6 @@ GROUP BY m.mentor_id, m.mentor_name, m.email, m.specialization
 HAVING COUNT(mm.user_id) > 15
 ORDER BY mentee_count DESC;
 
-
 -- 6. Find the number of users who are absent and task is not submitted between 15-oct-2020 and 31-oct-2020
 SELECT 
     u.user_id,
